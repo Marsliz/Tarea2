@@ -5,29 +5,40 @@ h1{
     padding: 10px;
 }
 .oso{
-    padding: 10px;
+    padding: 20% 0 0 0;
     margin: auto;
 }
 .cabeza{
     background-color: brown;
     width: 200px; height: 200px;
-    position: relative;
+    position: absolute;
     border-radius: 50%;
+    top: -100px; left: 50%;
+    transform: translateX(-50%);
 }
 .ojoderecha, .ojoizq{
     background-color: white;
-    width: 60px; height: 60px;
+    width: 40px; height: 40px;
     position: absolute;
     border-radius: 50%;
 }
 .ojoderecha{
-    top: -20px; left: 150px;
+    top: 50px; left: 130px;
 }
 .ojoizq{
-    top: -20px; left: -10px;
+    top: 50px; left: 40px;
+}
+.irisderecha, .irisizq{
+    background-color: rgb(0, 0, 0);
+    width: 20px; height: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+.irisderecha{
+    
 }
 .nariz, .boca{
-    transform: translate(-50%);
+    transform: translateX(-50%);
 }
 .nariz{
     background-color: black;
@@ -50,8 +61,48 @@ h1{
     border-radius: 50%;
 }
 .orjderecha{
-    top: -20px; left: 140px;
+    top: -20px; left: 150px;
 }
 .orjizq{
-    top: -20px; left: -20px;
+    top: -20px; left: -10px;
+}
+
+.cuerpo{
+    background-color: brown;
+    width: 300px; height: 300px;
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+}
+.panza{
+    background-color: rgb(125, 66, 4);
+    width: 150px; height: 200px;
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+    top: 60px;
+}
+.manoderecha, .manoizq{
+    background-color: rgb(129, 34, 34);
+    height: 80px; width: 80px;
+    position: absolute;
+    border-radius: 50%;
+}
+.manoderecha{
+    top: 50px; left: 235px;
+}
+.manoizq{
+    top: 50px; left: -10px;
+}
+.piederecha, .pieizq{
+    background-color: rgb(129, 34, 34);
+    height: 100px; width: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+.piederecha{
+    top: 200px; left: 235px;
+}
+.pieizq{
+    top: 200px; left: -10px;
 }
