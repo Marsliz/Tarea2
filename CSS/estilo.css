@@ -2,107 +2,83 @@ h1{
     background-color: dimgray;
     color: aliceblue;
     text-align: center;
-    padding: 10px;
-}
+    padding: 10px;}
 .oso{
     padding: 20% 0 0 0;
-    margin: auto;
-}
+    margin: auto;}
 .cabeza{
     background-color: brown;
     width: 200px; height: 200px;
     position: absolute;
     border-radius: 50%;
     top: -100px; left: 50%;
-    transform: translateX(-50%);
-}
+    transform: translateX(-50%);}
 .ojoderecha, .ojoizq{
     background-color: white;
     width: 40px; height: 40px;
     position: absolute;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 .ojoderecha{
-    top: 50px; left: 130px;
-}
+    top: 50px; left: 130px;}
 .ojoizq{
-    top: 50px; left: 40px;
-}
+    top: 50px; left: 40px;}
 .irisderecha, .irisizq{
     background-color: rgb(0, 0, 0);
     width: 20px; height: 20px;
     position: absolute;
-    border-radius: 50%;
-}
-.irisderecha{
-    
-}
+    border-radius: 50%;}
 .nariz, .boca{
-    transform: translateX(-50%);
-}
+    transform: translateX(-50%);}
 .nariz{
     background-color: black;
     height: 20px; width: 40px;
     border-radius: 50%;
     position: absolute;
-    top: 85px; left: 50%;
-}
+    top: 85px; left: 50%;}
 .boca{
     background-color: darkgoldenrod;
     height: 40px; width: 50px;
     border-radius: 50%;
     position: absolute;
-    top: 120px; left: 50%;
-}
+    top: 120px; left: 50%;}
 .orjderecha ,.orjizq{
     background-color: brown;
     height: 60px; width: 60px;
     position: absolute;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 .orjderecha{
-    top: -20px; left: 150px;
-}
+    top: -20px; left: 150px;}
 .orjizq{
-    top: -20px; left: -10px;
-}
+    top: -20px; left: -10px;}
 
 .cuerpo{
     background-color: brown;
     width: 300px; height: 300px;
     position: relative;
     border-radius: 50%;
-    margin: auto;
-}
+    margin: auto;}
 .panza{
     background-color: rgb(125, 66, 4);
     width: 150px; height: 200px;
     position: relative;
     border-radius: 50%;
     margin: auto;
-    top: 60px;
-}
+    top: 60px;}
 .manoderecha, .manoizq{
     background-color: rgb(129, 34, 34);
     height: 80px; width: 80px;
     position: absolute;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 .manoderecha{
-    top: 50px; left: 235px;
-}
+    top: 50px; left: 235px;}
 .manoizq{
-    top: 50px; left: -10px;
-}
+    top: 50px; left: -10px;}
 .piederecha, .pieizq{
     background-color: rgb(129, 34, 34);
     height: 100px; width: 100px;
     position: absolute;
-    border-radius: 50%;
-}
+    border-radius: 50%;}
 .piederecha{
-    top: 200px; left: 235px;
-}
+    top: 200px; left: 235px;}
 .pieizq{
-    top: 200px; left: -10px;
-}
+    top: 200px; left: -10px;}
