@@ -1,0 +1,57 @@
+h1{
+    background-color: dimgray;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+.oso{
+    padding: 10px;
+    margin: auto;
+}
+.cabeza{
+    background-color: brown;
+    width: 200px; height: 200px;
+    position: relative;
+    border-radius: 50%;
+}
+.ojoderecha, .ojoizq{
+    background-color: white;
+    width: 60px; height: 60px;
+    position: absolute;
+    border-radius: 50%;
+}
+.ojoderecha{
+    top: -20px; left: 150px;
+}
+.ojoizq{
+    top: -20px; left: -10px;
+}
+.nariz, .boca{
+    transform: translate(-50%);
+}
+.nariz{
+    background-color: black;
+    height: 20px; width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 85px; left: 50%;
+}
+.boca{
+    background-color: darkgoldenrod;
+    height: 40px; width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px; left: 50%;
+}
+.orjderecha ,.orjizq{
+    background-color: brown;
+    height: 60px; width: 60px;
+    position: absolute;
+    border-radius: 50%;
+}
+.orjderecha{
+    top: -20px; left: 140px;
+}
+.orjizq{
+    top: -20px; left: -20px;
+}
